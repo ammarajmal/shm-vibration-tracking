@@ -21,7 +21,7 @@ Build a reproducible research codebase and publish **Paper 2**: a novel offline 
 - `data/`: Calibration files and small configs.
 - `results/`: Output directory for processed data (ignored by git).
 
-## 🚀 Key Features (Paper 2)
+## 🚀 Key Features 
 1.  **Robust Tracking**: Fuses AprilTag detection with KLT corner tracking to handle frames where tags are blurred or occluded.
 2.  **Self-Validation**: Introduces a **Motion Consistency Index (MCI)** to reject outlier pose updates.
 3.  **Offline Sync**: precise time-alignment of multi-camera streams using drift estimation and resampling.
